@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "io.github.daomephsta.modifiertooltipfix.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+	"FixModifierUuidEqualityCheck"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

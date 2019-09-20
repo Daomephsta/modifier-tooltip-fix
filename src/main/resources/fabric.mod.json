@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "modifier-tooltip-fix",
+  "version": "${version}",
+  "name": "Modifier Tooltip Fix",
+  "description": "Fixes incorrect equality checking in the modifier tooltip code",
+  "environment": "client",
+  "mixins": [
+	{
+		"environment": "client",
+		"config": "modifier-tooltip-fix-client-mixins.json"
+	}
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  }
+}
