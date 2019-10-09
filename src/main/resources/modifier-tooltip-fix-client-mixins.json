@@ -3,7 +3,8 @@
   "package": "io.github.daomephsta.modifiertooltipfix.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-	"FixModifierUuidEqualityCheck"
+	"FixModifierUuidEqualityCheck",
+	"ItemAccessors"
   ],
   "injectors": {
     "defaultRequire": 1
