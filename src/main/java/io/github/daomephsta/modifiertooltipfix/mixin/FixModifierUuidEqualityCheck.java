@@ -30,7 +30,7 @@ public class FixModifierUuidEqualityCheck
 	private static final ThreadLocal<FixModifierUuidEqualityCheckContext> polar_equalityCheckContext = ThreadLocal.withInitial(FixModifierUuidEqualityCheckContext::new);
 
 	@Inject(method = "getTooltip",
-			at = @At(value = "FIELD", target = "Lnet/minecraft/item/Item;ItemAccessors.getATTACK_DAMAGE_MODIFIER_UUID():Ljava/util/UUID;"),
+			at = @At(value = "FIELD", target = "Lnet/minecraft/item/Item;ATTACK_DAMAGE_MODIFIER_UUID:Ljava/util/UUID;"),
 			locals = LocalCapture.CAPTURE_FAILHARD)
 	public void polar_populateFixContext(PlayerEntity player, TooltipContext tooltipContext, CallbackInfoReturnable<List<Text>> info, List<?> _1, int _2, EquipmentSlot[] _3, int _4, int _5, EquipmentSlot _6, Multimap<?, ?> _7, Iterator<?> _8, Map.Entry<?, ?> _9, EntityAttributeModifier modifier)
 	{
