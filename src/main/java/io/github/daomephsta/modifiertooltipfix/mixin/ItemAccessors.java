@@ -10,13 +10,13 @@ import net.minecraft.item.Item;
 @Mixin(Item.class)
 public interface ItemAccessors
 {
-	@Accessor("ATTACK_DAMAGE_MODIFIER_UUID")
+	@Accessor("ATTACK_DAMAGE_MODIFIER_ID")
 	public static UUID getAttackDamageModifierUuid()
 	{
 		throw new IllegalStateException("Dummy method body invoked. A critical mixin failure has occured.");
 	}
 
-	@Accessor("ATTACK_SPEED_MODIFIER_UUID")
+	@Accessor("ATTACK_SPEED_MODIFIER_ID")
 	public static UUID getAttackSpeedModifierUuid()
 	{
 		throw new IllegalStateException("Dummy method body invoked. A critical mixin failure has occured.");
