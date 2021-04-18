@@ -5,13 +5,18 @@
   "name": "Modifier Tooltip Fix",
   "description": "Fixes incorrect equality checking in the modifier tooltip code",
   "environment": "client",
+  "license": "MIT",
+  "icon": "logo.png",
+  "contact": {
+    "sources": "https://github.com/Daomephsta/modifier-tooltip-fix/",
+    "issues": "https://github.com/Daomephsta/modifier-tooltip-fix/issues"
+  },
   "mixins": [
 	{
 		"environment": "client",
 		"config": "modifier-tooltip-fix-client-mixins.json"
 	}
   ],
-
   "depends": {
     "fabricloader": ">=0.4.0"
   }
